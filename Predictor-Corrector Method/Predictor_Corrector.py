@@ -93,8 +93,6 @@ def main(M, q, max_itr, alpha1, alpha2, sigma):
     beta_up = np.linalg.norm(PHI(z, n))/mu
     beta = max(beta_low ,beta_up) + 20
 
-    print(beta_up, beta_low, beta, mu)
-
     itr_ct = 1
     li = []
 
